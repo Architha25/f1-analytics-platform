@@ -1,0 +1,20 @@
+# secrets
+.env
+
+# Java
+backend/target/
+*.iml
+.idea/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Python
+ml-service/.venv/
+__pycache__/
+*.pyc
+ml-service/models/*.joblib
+
+# OS
+.DS_Store
